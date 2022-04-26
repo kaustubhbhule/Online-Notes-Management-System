@@ -23,12 +23,12 @@ try {
 	$mail->isSMTP();
 	$mail->Host	 = 'smtp.gmail.com;';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'n16h7h4wk0@gmail.com';
-	$mail->Password = '3E4TDWJ5Wnj7ZXA';
+	$mail->Username = 'your_email';
+	$mail->Password = 'your_password';
 	$mail->SMTPSecure = 'tls';
 	$mail->Port	 = 587;
 
-	$mail->setFrom('n16h7h4wk0@gmail.com', 'Note Keeper');
+	$mail->setFrom('your_mail', 'Note Keeper');
 	$mail->addAddress($email);
 	$otp=rand(1000,9999);
 	$mail->isHTML(true);
