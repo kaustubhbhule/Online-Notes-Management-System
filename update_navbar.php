@@ -22,6 +22,6 @@ if(isset($_GET['destroy'])) {
       unset($_SESSION['archive']);
 }
 
-header("location: home.php");
+echo "<script>location.replace('home.php');</script>";
 exit;
 ?>

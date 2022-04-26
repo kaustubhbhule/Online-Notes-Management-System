@@ -26,7 +26,7 @@ if(isset($_SESSION['user']))
       <form class="register-form" action="send_mail.php" method="POST">
         <input type="email" placeholder="Email" name="email" required />
         <button type="submit">Get OTP</button>
-        <p class="message">Already registered? <a href="login.php">Sign In</a></p>
+        <p class="message">Already registered? <a href="index.php">Sign In</a></p>
       </form>
     </div>
   </div>

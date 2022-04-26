@@ -21,7 +21,7 @@ $_SESSION['otp'] = null;
         <input type="password" placeholder="Password" name="pass" />
         <input type="password" placeholder="Confirm password" name="cpass"/>
         <button type="submit">Sign Up</button>
-        <p class="message">Already registered? <a href="login.php">Sign In</a></p>
+        <p class="message">Already registered? <a href="index.php">Sign In</a></p>
       </form>
     </div>
   </div>
